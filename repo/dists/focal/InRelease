@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: CWRU ECSE 376 Repository
+Label: CWRU ECSE 376
+Suite: focal
+Codename: focal
+Version: 1.0
+Architectures: i386 amd64
+Components: main
+Description: Repository for CWRU ECSE 376
+Date: Mon, 22 Jan 2024 13:55:28 +0000
+MD5Sum:
+ 36bceaff2f179f2af1cf3d758649f031             8065 main/binary-amd64/Packages
+ 5379b5583678556bf3270645a4226b80             2683 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+ 4a4dd3598707603b3f76a2378a4504aa               20 main/binary-i386/Packages.gz
+SHA1:
+ 8ffcd2f8074550385caeb997306bd0b91bc83fd4             8065 main/binary-amd64/Packages
+ 9cbcd0f04af004265b4e03f4a2188b5d2c30266a             2683 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed               20 main/binary-i386/Packages.gz
+SHA256:
+ 8e7683a5728d412d683ee6f3a34453d005839a159c249f57a024e30df8783209             8065 main/binary-amd64/Packages
+ d58685eb1f2e9fc4c1d5275e4e85bfa0e497166dbc01daa4e7a31ff4d907ae89             2683 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec               20 main/binary-i386/Packages.gz
+SHA512:
+ 11611534fa5cf3ac4a8cbce93769faf40892a90bbe7d0addb9c19c5fc014be401b4bf4c8d6a4608a40b297621a5bf674ba5d83dc0e5fa842ac9bf187acec9cf7             8065 main/binary-amd64/Packages
+ d13811be997b5cee8c2b21761e51a19d6d8f8b7c8a547c670451272e86acd3b8093dc1dce252f1c3bd58aa1f77ae3f1e9a5b871f19060aaafd25a0b4456a9d96             2683 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
+ 1b46b9b08d5b338be9d732a1724795b2eab63daffde377218727c90857b79fe6a47bceed495117fcde60f7339812ef75ef4c69f82dd79fb69b6cbf8006b521f2               20 main/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJDBAEBCgAtFiEE846v4xlCrs/ui9r59dH+ZrQ/kVAFAmWuc9MPHGxlZWdzQGNh
+c2UuZWR1AAoJEPXR/ma0P5FQ47UP/0dX4ngbemt+dl41MfVjgUGUlymU0vXGAtqE
+FRMeWDAWNx+aRFL6/s/5gobVjGWfa+q67TbgEcdZkiQ9YUYEo/pnH7o+TMSUHbEB
+ixe/JIkzBRxSZGoPmDtG4VMkIRw3/aFLfifk2GfEBhF7e8yPaz1IERMZnX1eSEzc
+vm7NvY6R1A4sOvJfTrxkg7sVidE7wM0MZgjuhLyp7I3oMbbutoVE+J1h0+A3LpnI
+5TALVgsOcnyQksXCfkKSl3tu5Kq1Fkm58ua3MJ81loRhFtDW/4M4xqsH99qXKOcB
+ElhoUGhv9X9LHgAM0ZjdF7hrUofn+Ju7Yge0i5YQ/2SfyShS/m5RHg95UOiVCRTN
+z9lAqTitZbHzCFJVD/AWr5OWJlp2oE5v+SeqbROxdOM60ZNHR3ZrUzlYAgSordog
+/bC2OYny/Qsg1ak67ota+rjE3aynKNH2GbaqcVVsqEH3t99p1Xm0cSK+/Zle/DnM
+11Gn+8FLwLO9r3Qc5rpkVHY4m3VKYx1a5yJlJiSLOsDEIR1raQCNA/pVbnayY0ZI
+s/19LuBoVPnzPuf1nbKRCZY0pa810pIP25l4BUT4gfFep1diqtq8DuAHO3+OeDfH
+Zgxng9jvGh/aiee19U8UKYYwLY1di/qQk1SBMni9QgaVg5+z5b1rFVeUzkZji+gs
+xyqNOS7U
+=Lc8A
+-----END PGP SIGNATURE-----
