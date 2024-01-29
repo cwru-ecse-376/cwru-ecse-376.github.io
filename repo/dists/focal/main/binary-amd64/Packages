@@ -5,13 +5,13 @@ Priority: optional
 Section: misc
 Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 3263
-Depends: libboost-thread1.71.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 9), libqt5gui5, ros-noetic-map-server, ros-noetic-nav-msgs, ros-noetic-qt-gui, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-sdtr-server, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-robot, ros-noetic-tf
+Depends: libboost-thread1.71.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 9), libqt5gui5, ros-noetic-map-server, ros-noetic-nav-msgs, ros-noetic-qt-gui, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-robot, ros-noetic-stdr-server, ros-noetic-tf
 Filename: pool/main/ros-noetic-stdr-gui_0.4.1-0focal_amd64.deb
-Size: 1023036
-MD5sum: 97f608cf6c4656260518f8a4d2e40764
-SHA1: 9b7fd7135390c01f04b26dae8b314517fdb1ec65
-SHA256: 3e470d52c36bcafc710fa396cb5b95038057c7a8546f373c59de18ddca2791fc
-SHA512: a8f0b3a7020cb910fb8ded58e5943610a3c378b1dfcad5dc58a9b05eaeb2e0608d30400e0e71cab990d2bb4545b135518f760eb0b95f52d124540545b62b30be
+Size: 1022680
+MD5sum: e3261cb748c0b399ca0b96796f8bd98e
+SHA1: 25cd76f14953290fa4ac11487e6894ed510b9283
+SHA256: 6bc7f62c58122f6613d5361927a58d8d693c128fe15abe13a4b111593c749dbf
+SHA512: ed696baeac7a7373c04f025656fd9169642b59f091825944161984c2d00d5c2ea7b96f5c90bcc5c7fd2f9622f811a0c4247e65403dfc6a2bca6b78f2e6cb8112
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: A gui in Qt for visualizing purposes in STDR Simulator.
 
@@ -22,13 +22,13 @@ Priority: optional
 Section: misc
 Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 42
-Depends: ros-noetic-rviz, ros-noetic-sdtr-server, ros-noetic-stdr-gui, ros-noetic-stdr-resources, ros-noetic-stdr-robot
+Depends: ros-noetic-rviz, ros-noetic-stdr-gui, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-server
 Filename: pool/main/ros-noetic-stdr-launchers_0.4.1-0focal_amd64.deb
-Size: 7400
-MD5sum: 3fd17ab2847b4ab502e1235e0fed0826
-SHA1: 2bf5e0637a4f815c86e1e935ccf7353da252966b
-SHA256: 35c2fdfa596c4eeedbf11d7b2b691cf347ffbef2f757e7c0f05dee1dea93ea6b
-SHA512: 1a6608ac3f831c5166099ec763b7610c7b0d5f431dbdb33397db1366aaa389a97260a1948ce8094c1c535c8d20b0cbaf0fd3b730dc8ad76f259fffaded3b5d16
+Size: 7396
+MD5sum: 829fe2a1b409e79d5223f95e191a67df
+SHA1: 879d6c3408f8016c252a675c3d837c0ea62ff30a
+SHA256: 8ac984f0e8366fd69e816738a36fcf078d9f5386b8e2e441ea0631c618e8f5a9
+SHA512: ad937b8382f12bdd00dc052fe1e3a9afcb4cbf1c986d36cab5c4a17e56ff9a91b738d8d4bb6fff7a1a8f4c614adf6314ff92bcd7d34b29c4da43193075da3a44
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Launch files, to easily bringup server, robots, guis
 
@@ -41,11 +41,11 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 3630
 Depends: ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-std-msgs
 Filename: pool/main/ros-noetic-stdr-msgs_0.4.1-0focal_amd64.deb
-Size: 149872
-MD5sum: 1df641cf52d8287c10fb7605fa753de0
-SHA1: 0b7a8d01d59d4a615f7b3f10e1f1c2a02c41094f
-SHA256: de5316cc451d281c538a6677bb5f0dc7a37ec790259413671ec70c59bb3c5adf
-SHA512: cbe12334babb4963d39b414b40b6d49154ff5d1aee5409be94dab1ddcf3eafc6c3d50176c0826e24392710a2660f2b4731aa8490a56454edc5446381d68127d2
+Size: 149652
+MD5sum: 371b86f5a0c76a3368b769bc957fe167
+SHA1: fcbb9efc27a952094d5213aeab31319e3b5319e1
+SHA256: f1a69483248da02f9065597b1de453e7ee079e22e78ac1ff5e7462ae92e6adda
+SHA512: ce74b704136365e7c9db5c4828fde6868bc50eb61b2cf3279949597162b4f2b51cf6b19a4f1e708ab238b309e10c76fef6a1fc23d743f78c044fc26e878a16ed
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides msgs, services and actions for STDR Simulator.
 
@@ -58,11 +58,11 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 384
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libtinyxml2.6.2v5, libyaml-cpp0.6 (>= 0.6.2), libtinyxml-dev, libyaml-cpp-dev, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-stdr-msgs
 Filename: pool/main/ros-noetic-stdr-parser_0.4.1-0focal_amd64.deb
-Size: 99136
-MD5sum: 1e860df425a325ab4b460f9e6b336f2e
-SHA1: 6b8cc0bef7e8e9ce0e89db0897d53ddb803a568a
-SHA256: cbf95ad73d5aba6c26885601abef9cd22576ef963ddf575b94f549bba8de8f58
-SHA512: 9eede971faf38c7374e5f5ee671a0cd8b8159f566961f70eccac921dccafe788e787bc835a33af971a2562ea8c27fc2821dc85d67e65b67376ceaccc05b23b59
+Size: 99016
+MD5sum: b402d6c3c1f702caa29ce9a188db2f3c
+SHA1: 859c13cf2d43df890eedd5d830aa5f09c0cda5ff
+SHA256: 2273bcd2f748a5a050aa8c49daae6e5cbf225eeb2ea759aadfab7d580a01a163
+SHA512: 35105faf3e4df208477484f38627a4caf681414135eac14dfdc27453ee2a4289689bf6372c147129b809a701075293e876fdc8a2b6ac307b4dedadc0304fc033
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides a library to STDR Simulator, to parse yaml and xml description files.
 
@@ -74,11 +74,11 @@ Section: misc
 Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 435
 Filename: pool/main/ros-noetic-stdr-resources_0.4.1-0focal_amd64.deb
-Size: 256404
-MD5sum: 596b6eda474c5d14f0158813dfe1738b
-SHA1: 86a20121e1c4c1556a53b5b3e3992738a5f458ee
-SHA256: 51479738610170e5d04af96f58035a64614db44f340ebc4cfe917d31d21249ad
-SHA512: 26e39a3c3aa4caf73a1a4a676e03a8c33551e5533dcc4f179cf8ad5c7077d96b5420fdf5907f96e9728b7ea19028947b436ff0fd96e909a6acb71d6f3a6c2ae3
+Size: 256420
+MD5sum: e27b68e056e5abbf97919b804b0602cb
+SHA1: 20371a436d095a421f52af5b50a0138ba8045400
+SHA256: 942fbdddc271acdfb6d5a4c7ce720df29c6220a118660792c5cb0e94463b9b2f
+SHA512: 62cbd4a7dd2bc31a24efd1b77da43c96c46c30b1f4eaf61e507ddce4169062728d754a7ddb5de80363fa2dcb15f7be52a80b870091971ebe3718e3eee074104a
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides robot and sensor descripiton files for STDR Simulator.
 
@@ -89,13 +89,13 @@ Priority: optional
 Section: misc
 Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 2538
-Depends: libboost-thread1.71.0, libc6 (>= 2.17), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-actionlib, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sdtr-server, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-tf
+Depends: libboost-thread1.71.0, libc6 (>= 2.17), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-actionlib, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-server, ros-noetic-tf
 Filename: pool/main/ros-noetic-stdr-robot_0.4.1-0focal_amd64.deb
-Size: 362372
-MD5sum: 930c4795a72c186e7b1cde5c046d1dbb
-SHA1: cbcdcfdbe5dbcb8171eeb54344291d2532b04b2f
-SHA256: 20cfd6c1d9dd216842140ef8fef591effd8e592bf8ac50346ba4f3c53af8f1cc
-SHA512: e2478c00d337f6b12df5a3c15c44468a90f08630877d126fcb4ed4e4a1ff74a7eb7e10d2bd02961ecbcfe9879c3bb8a12aef29d03b9438aad5c2385222bd649c
+Size: 362216
+MD5sum: 9a973e2d6723978c4eb78a6238e5f5db
+SHA1: 5a2272ab0582c087e6e03d552ccca7ea4812a480
+SHA256: 0785449153422e29bc9418e6f8f200a53fdc5a67b3be6a3acdf29cfeebfd9c47
+SHA512: 309edcca375506686bc41cf558c58e931190f8ff9e2409c4a95a4fbd74daca0fe8c9370aeb2ce71269ea0edad31d3f8d3a56f16c7634224f2e486f3bb3e2600e
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides robot, sensor implementation, using nodelets for stdr_server to load them.
 
@@ -108,11 +108,11 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 129
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-tf
 Filename: pool/main/ros-noetic-stdr-samples_0.4.1-0focal_amd64.deb
-Size: 32848
-MD5sum: d5324fe09d1884365e38ecf1e81c6ae2
-SHA1: 58cd15f4ab5787036e8dea890e6c4dc77aed1db3
-SHA256: b1316d7a6eb80782d09e1137e70d967bd808318682cc72c3b936886c08f2207f
-SHA512: 23a3d58d8720e3e8b8b882f1a09c2da8aa18e1f2cad56a3e15b88d19c9c92537a78edbefbcd621525d3697f5fc1801663dea8442bf3f1293bdf16e07993403b1
+Size: 32924
+MD5sum: ed51fb73fd10c1d8189be47a82f85f8c
+SHA1: 0cddff9278910268c58246c84454414853f78c83
+SHA256: 555d386005fb665a23044183c38913d45592d481f698f8549414f8a19622c860
+SHA512: 6cf7c3d235dcd01c94dac45053427ddf4ad6f1b4c4d7282667e6c144873cd1ca680b077f3ee502a2f1c57d20af63aa5a70c4b9c3da217bd711f3b4a0e7411073
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides sample codes to demonstrate STDR simulator functionalities.
 
@@ -125,11 +125,11 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 1453
 Depends: libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-actionlib, ros-noetic-map-server, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-stdr-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
 Filename: pool/main/ros-noetic-stdr-server_0.4.1-0focal_amd64.deb
-Size: 250332
-MD5sum: 82492857d064eceb52592f8b7476eb20
-SHA1: 160b45e81de194bd50d631d0bdb9ca3b26bdcf83
-SHA256: f7624a74934308ce678128f25503b7578f1e9a6f1b5dfecd4fde40329c8ba7bb
-SHA512: 0e0e80cdfce6d581c939097132abf843c7b7b213202a966dc6addeaa4e56e16e24c7254f5c943eb2faac78344ec8058be2301144844358b2cc56fb7d49cd9c43
+Size: 250588
+MD5sum: 3fe4bde8dac061651507be95a15ab080
+SHA1: 09cea393890f39e96db9b4ffa2b2e15e1f7cc7f8
+SHA256: 34d5bbec1832da0bea76e66616bb318a0c3928624cd4d7e62f429a28e861b233
+SHA512: 502bee867c769dffe2936c3c94842847162c3263e02f527c0093b9fe3397654436c1b47ce205aacc33bc6a6ac210b4583200c34b420e9b4940f79d4401d55c74
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Implements synchronization and coordination functionalities of STDR Simulator.
 
@@ -140,13 +140,13 @@ Priority: optional
 Section: misc
 Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 15
-Depends: ros-noetic-sdtr-server, ros-noetic-stdr-gui, ros-noetic-stdr-launchers, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-samples
+Depends: ros-noetic-stdr-gui, ros-noetic-stdr-launchers, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-samples, ros-noetic-stdr-server
 Filename: pool/main/ros-noetic-stdr-simulator_0.4.1-0focal_amd64.deb
 Size: 2184
-MD5sum: 8083e9260829a0cf8573b90e82d35b64
-SHA1: 5ad2e14a7e0ced3b36ede3ca2cb0c6eac40cc30b
-SHA256: 71159f46a52e99e27918427e2e3b4187713aa8ef31125c2fa1366ef4a4400b19
-SHA512: cc4c1bbbe835ae7724a06b64c9bb8600c68e9f81fb7c1f07e56cc13a36259a25f44392852dc862a6970ff785974e6e80c6f01582fa889d8b22a5c93d34d0da2c
+MD5sum: 7fa0a2364759bc9c5ae339cc63b08816
+SHA1: c13296383e2c07c8401ec346df142a95ad482cf7
+SHA256: 21d0ebc632cf73e3b5cb547282fcd59693648ca7a4d0fd17ff632e7490357d8d
+SHA512: db3ab2c1f8b106e4dfdcd71ca3eb3e1085bca7c5a27d7b6906bd1897769ad6b279eff60515433476a03b4ff657803efbd99243c5ba0bbecdbecec243e19e57ef
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: A simple, flexible and scalable 2D multi-robot simulator.
 
