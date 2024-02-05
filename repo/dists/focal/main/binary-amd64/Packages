@@ -568,13 +568,13 @@ Priority: optional
 Section: misc
 Maintainer: Daniel Stonier <d.stonier@gmail.com>
 Installed-Size: 169
-Depends: ros-noetic-depthimage-to-laserscan, ros-noetic-diagnostic-aggregator, ros-noetic-kobuki-bumper2pc, ros-noetic-kobuki-capabilities, ros-noetic-kobuki-node, ros-noetic-kobuki-safety-controller, ros-noetic-laptop-battery-monitor, ros-noetic-openni-launch, ros-noetic-realsense2-camera, ros-noetic-robot-pose-ekf, ros-noetic-robot-state-publisher, ros-noetic-turtlebot-capabilities, ros-noetic-turtlebot-description, ros-noetic-yocs-cmd-vel-mux
+Depends: ros-noetic-depthimage-to-laserscan, ros-noetic-diagnostic-aggregator, ros-noetic-kobuki-bumper2pc, ros-noetic-kobuki-node, ros-noetic-kobuki-safety-controller, ros-noetic-laptop-battery-monitor, ros-noetic-openni-launch, ros-noetic-realsense2-camera, ros-noetic-robot-pose-ekf, ros-noetic-robot-state-publisher, ros-noetic-turtlebot-description, ros-noetic-yocs-cmd-vel-mux
 Filename: pool/main/ros-noetic-turtlebot-bringup_2.4.2-0focal_amd64.deb
-Size: 62972
-MD5sum: a378665e4acc58c21804a777509f0325
-SHA1: 3547a6b48c10d0f39632420cee9577b587b21080
-SHA256: 2fbaa1420180e60e64fdb061f94f64095ef46f2b2849acc3983671842c71caae
-SHA512: 25302e38ae1cc3b42a7592ea02157d4089e920eabd1eb1777deb038bec32f78c393e9628198a4e18bbf60b494096a78c457d5bff6f04fa45fff73dae221fd72c
+Size: 63036
+MD5sum: ef36e313ff899b801eb97095a4f7bfe1
+SHA1: f0a4e487dd0435748b8ee69ba724d83f5aaed2a3
+SHA256: de46577ddad68a3160700e3190523ea209b989468228c30de7d1ad9e44472ea2
+SHA512: e23047c10313a25008211427549fcbd0724d75e8b22dce42f5942aa3cbff871056db62b6b474de5b8ba921c1750fc1057285631f6fb696a4c2aab6502cfa185f
 Homepage: http://ros.org/wiki/turtlebot_bringup
 Description: turtlebot_bringup provides roslaunch scripts for starting the TurtleBot base functionality.
 
