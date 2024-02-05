@@ -752,6 +752,59 @@ SHA512: 2926a1aca17c29e93e9778cffe74cf560b74baf84f6a1ccc2dc2793de3a8dab4974ff2a4
 Homepage: http://ros.org/wiki/turtlebot
 Description: The turtlebot meta package provides all the basic drivers for running and using a TurtleBot.
 
+Package: ros-noetic-yocs-cmd-vel-mux
+Architecture: amd64
+Version: 0.12.1-0focal
+Priority: optional
+Section: misc
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Installed-Size: 433
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp
+Filename: pool/main/ros-noetic-yocs-cmd-vel-mux_0.12.1-0focal_amd64.deb
+Size: 102880
+MD5sum: 3969c31faa5c00890b756a0f7fbf36a9
+SHA1: 1279b2947b349dc8d64f8c5581617857d2bf33a7
+SHA256: 6bd485d753a1f1b9a7c802b227379fbadd7d75448f3c684ac7d7bf094062bace
+SHA512: ecfda2a96dc5f789036c180e18afe01524160a2550fc19446b16c1e168036a7b045002ad8f491bf811d39c49fffb670b4f642f37fcd331f8629f5748a43ceaad
+Homepage: http://ros.org/wiki/yocs_cmd_vel_mux
+Description: A multiplexer for command velocity inputs.
+ Arbitrates incoming cmd_vel messages from several topics, allowing one topic at a time to command the robot, based on priorities. It also deallocates current allowed topic if no messages are received after a configured timeout. All topics, together with their priority and timeout are configured through a YAML file, that can be reload at runtime.
+
+Package: ros-noetic-yocs-controllers
+Architecture: amd64
+Version: 0.12.1-0focal
+Priority: optional
+Section: misc
+Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+Installed-Size: 35
+Depends: ros-noetic-roscpp
+Filename: pool/main/ros-noetic-yocs-controllers_0.12.1-0focal_amd64.deb
+Size: 6552
+MD5sum: cfeafd2e3e07b477cb842f4db6e303fe
+SHA1: 326d2f9cdc57973c1272f5d74afee761420631df
+SHA256: a7580a711db33249114717c2edfac108a62a04e3d2605e34c8d1e345eadfcbb8
+SHA512: 30984ae0b9d7721a3bd9bcbcc7a1b8b3d48c082fe922ba734a7f1ef51c47e3ed9af26483e5fe59c85bb99af25e9371039af7a7b34fe57bfd4ca8dba96d1c52d2
+Homepage: http://ros.org/wiki/yocs_controllers
+Description: Library for various controller types and algorithms
+
+Package: ros-noetic-yocs-math-toolkit
+Architecture: amd64
+Version: 0.12.1-0focal
+Priority: optional
+Section: misc
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Installed-Size: 100
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-ecl-build, ros-noetic-ecl-config, ros-noetic-ecl-exceptions, ros-noetic-ecl-formatters, ros-noetic-ecl-linear-algebra, ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-tf
+Filename: pool/main/ros-noetic-yocs-math-toolkit_0.12.1-0focal_amd64.deb
+Size: 24680
+MD5sum: ac24a34a17e29419126cbd4909bf696a
+SHA1: 671cb03c3dbe90c3fb32819355f8b555240a5b38
+SHA256: 7bb4b242c99a78029c7a6aced75d9721b4c2bc9680063a9e4cf1664cd10e9e4a
+SHA512: be12f84eb0a56e38dc4ae19d7867272c9e7692d696e37cbb2ec0067e3e35bbf341cc4999a8c54519ec28a88316b69f8a9c3faf3a3f2892c36334f54d49af156b
+Homepage: http://ros.org/wiki/yocs_math_toolkit
+Description: Math toolkit for Yujin open control system.
+ This package is intended to contain common use functions, mostly for simple mathematics but also for tf-related conversions. By no means it pretends to be an efficient and robust, widely used math library, but a play ground where to put common code that is typically repeated in many robot control programs.
+
 Package: ros-noetic-yocs-msgs
 Architecture: amd64
 Version: 0.7.0-0focal
@@ -768,4 +821,39 @@ SHA256: ac1f63842ae10fd07822ae53d300af41a25e4e6279eddda8c1978e530b1221ac
 SHA512: b025dc673e5d6607fec3aa5f87abd49fe567e4dbd8906f7984c9d1b5946d7b90b6d82705931812d5b8cf894a49496fbeccb36837c519bf86083d191a70837c97
 Homepage: http://ros.org/wiki/yocs_msgs
 Description: Yujin's Open Control System messages, services and actions
+
+Package: ros-noetic-yocs-velocity-smoother
+Architecture: amd64
+Version: 0.12.1-0focal
+Priority: optional
+Section: misc
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Installed-Size: 415
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-dynamic-reconfigure, ros-noetic-ecl-threads, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp
+Filename: pool/main/ros-noetic-yocs-velocity-smoother_0.12.1-0focal_amd64.deb
+Size: 92424
+MD5sum: c8fe715660ee390897ff624ccf504f45
+SHA1: aa69eda81c6181d468f1cd13de1fe24f188f117d
+SHA256: 68bf47b91dafe2115bd75c4098cd85cf14a13bed288b0d12bff22bbbe2dc0da9
+SHA512: 5dcaf88c8bc92bb3155aa258a323c4a258ce5500353bd2ca4c831d8137076737c768acc0a892ac9bbc7b0d5a8249fafe616220fee19ab9e5a9a51712adc8e1e5
+Homepage: http://ros.org/wiki/yocs_velocity_smoother
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
+
+Package: ros-noetic-yocs-virtual-sensor
+Architecture: amd64
+Version: 0.12.1-0focal
+Priority: optional
+Section: misc
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Installed-Size: 229
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-rospy-message-converter, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-visualization-msgs, ros-noetic-yocs-math-toolkit, ros-noetic-yocs-msgs
+Filename: pool/main/ros-noetic-yocs-virtual-sensor_0.12.1-0focal_amd64.deb
+Size: 55116
+MD5sum: 412ec0179490ce4c404df623a3d7302d
+SHA1: 62f1899e112df2d6ad3606ece0f42c00a2de3f3f
+SHA256: ac025dfdd3dc7edc7077e23f41c6b3938e7c57572f62cf0ca2bd97d41dfa1095
+SHA512: 3356eb5d143d080a77b6b692c5c9ca0c3a05362266fefac4a5f95906f973b8f5c6a8d84a54738e79f6ebe9ff876c484968fb4d19fa0bd4802a7e60e2baa19198
+Homepage: http://ros.org/wiki/yocs_virtual_sensor
+Description: Virtual sensor that uses semantic map information to &quot;see&quot; obstacles undetectable by robot sensors.
+ Current implementation cannot read obstacles from YAML files. Until this feature gets implemented, we use auxiliary scripts to read and publish files' content. Data directory contains some example files.
 
