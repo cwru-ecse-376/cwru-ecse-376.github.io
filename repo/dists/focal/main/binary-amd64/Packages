@@ -368,10 +368,10 @@ Installed-Size: 15
 Depends: ros-noetic-kobuki-auto-docking, ros-noetic-kobuki-bumper2pc, ros-noetic-kobuki-capabilities, ros-noetic-kobuki-controller-tutorial, ros-noetic-kobuki-description, ros-noetic-kobuki-keyop, ros-noetic-kobuki-node, ros-noetic-kobuki-random-walker, ros-noetic-kobuki-rapps, ros-noetic-kobuki-safety-controller, ros-noetic-kobuki-testsuite
 Filename: pool/main/ros-noetic-kobuki_0.7.6-0focal_amd64.deb
 Size: 2620
-MD5sum: cef15b97e5b7aca5e014d53d4a01358e
-SHA1: af0f9bed1f8e11b8bccc89210b90b11f84d2de23
-SHA256: 68c6eb5356e175989795f9e07760d5f243b2e8b1a2976e6133dc50788a379486
-SHA512: 2c8f7cb710ab44a99dd3f2ca6dd4f0031fb907f0aeecf686669d01e3a216653db0fd35aa616ab3a0b9893365bd1fa64c62196b25016813566c2b1de843ddd644
+MD5sum: 713c4d7a9c3e7a0544f787b7801d13b6
+SHA1: 722a2fe73684feb1381c29c232a896b2e25edf43
+SHA256: b24c399c7c69e4df4d31d4ad83bbe6272d08f491ac1428ee54cdae78117669b4
+SHA512: 7092c7db0a9ad97881da1c58dcea26c37805f9242275a451642f50dd081f92e3d5d25abcb1f2395e271f555285db0e40dddae456f847fe2c7b3358cb30f863aa
 Homepage: http://ros.org/wiki/kobuki
 Description: Software for Kobuki, Yujin Robot's mobile research base.
 
@@ -570,11 +570,11 @@ Maintainer: Daniel Stonier <d.stonier@gmail.com>
 Installed-Size: 169
 Depends: ros-noetic-depthimage-to-laserscan, ros-noetic-diagnostic-aggregator, ros-noetic-kobuki-bumper2pc, ros-noetic-kobuki-capabilities, ros-noetic-kobuki-node, ros-noetic-kobuki-safety-controller, ros-noetic-laptop-battery-monitor, ros-noetic-openni-launch, ros-noetic-realsense2-camera, ros-noetic-robot-pose-ekf, ros-noetic-robot-state-publisher, ros-noetic-turtlebot-capabilities, ros-noetic-turtlebot-description, ros-noetic-yocs-cmd-vel-mux
 Filename: pool/main/ros-noetic-turtlebot-bringup_2.4.2-0focal_amd64.deb
-Size: 62968
-MD5sum: cd4f6879bc5b07687596395492bd9bec
-SHA1: 4be8a5f183cf817d4cc9665fd7007a06937299c4
-SHA256: 2350868a7697fba483b54236769862db1be84b58148610414fda4873bbca2101
-SHA512: f760f43688726c7262a5ab8070c88066297138ab3314bbf0673b70ca296d9f496af109487bafa0b937516fbb7458d9cdb9741e4fbcffa2f3e107e367152603fe
+Size: 62972
+MD5sum: a378665e4acc58c21804a777509f0325
+SHA1: 3547a6b48c10d0f39632420cee9577b587b21080
+SHA256: 2fbaa1420180e60e64fdb061f94f64095ef46f2b2849acc3983671842c71caae
+SHA512: 25302e38ae1cc3b42a7592ea02157d4089e920eabd1eb1777deb038bec32f78c393e9628198a4e18bbf60b494096a78c457d5bff6f04fa45fff73dae221fd72c
 Homepage: http://ros.org/wiki/turtlebot_bringup
 Description: turtlebot_bringup provides roslaunch scripts for starting the TurtleBot base functionality.
 
