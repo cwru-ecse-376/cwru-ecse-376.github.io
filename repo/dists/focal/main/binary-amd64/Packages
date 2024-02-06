@@ -1,380 +1,3 @@
-Package: ros-noetic-create-bringup
-Architecture: amd64
-Version: 2.0.0-0focal
-Priority: optional
-Section: misc
-Maintainer: Jacob Perron <jacobmperron@gmail.com>
-Installed-Size: 38
-Depends: ros-noetic-create-description, ros-noetic-create-driver, ros-noetic-joy, ros-noetic-joy-teleop
-Filename: pool/main/ros-noetic-create-bringup_2.0.0-0focal_amd64.deb
-Size: 6620
-MD5sum: dedf92514fcf478fe34c1af26daace69
-SHA1: ce52b6ea658f36616e9472640cc210182ef7bc33
-SHA256: 3600a7f9cb95e9af6d0588733c8107240c1dd560fbc75c96eee1dbb65a094a01
-SHA512: 706c90dd78ce7e6fd9df720f49601913e94f9e7db6ad2adacf54e63276812d5764f72f3b3ef8f69df3b70ff77ba86159ebd7ea4245ebe7de1f9d9051aa5ef763
-Homepage: http://wiki.ros.org/create_bringup
-Description: Launch and configuration files for common accessories when working with Create/Roomba platforms.
-
-Package: ros-noetic-create-description
-Architecture: amd64
-Version: 2.0.0-0focal
-Priority: optional
-Section: misc
-Maintainer: Jacob Perron <jacobmperron@gmail.com>
-Installed-Size: 2147
-Depends: ros-noetic-robot-state-publisher, ros-noetic-urdf, ros-noetic-xacro
-Filename: pool/main/ros-noetic-create-description_2.0.0-0focal_amd64.deb
-Size: 183428
-MD5sum: a377ef59f1518fdcfeca4cf81296473a
-SHA1: 05dbe7e01a32cfdfed7b83a8e9f597a50b8902b2
-SHA256: 83be8da7399266afe91a9dae7d5bdfa9a36c13b40e9e7356827e9e8779acaf1c
-SHA512: c845fc452b6001fb0f4b159545c88e67f31e45d046b455fc1d2e8ecb8799bec199e4f9935c8cc262b358136041085d24a04912db23f10c66488452b144f3e63d
-Homepage: http://wiki.ros.org/create_description
-Description: Robot URDF descriptions for create_robot
-
-Package: ros-noetic-create-driver
-Architecture: amd64
-Version: 2.0.0-0focal
-Priority: optional
-Section: misc
-Maintainer: Jacob Perron <jacobmperron@gmail.com>
-Installed-Size: 469
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-create-msgs, ros-noetic-diagnostic-msgs, ros-noetic-diagnostic-updater, ros-noetic-geometry-msgs, ros-noetic-libcreate, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros
-Filename: pool/main/ros-noetic-create-driver_2.0.0-0focal_amd64.deb
-Size: 98924
-MD5sum: 0faad4444e2b1414960f2f717631df1e
-SHA1: ff04fdec79a0b2602fc8f858a47ec1ed5b4d29ca
-SHA256: 41ac166c435b0866c8c00b139774435ba1a3cc0523c7001080e16183a9ba897d
-SHA512: 00ba5147d79919aa2d86fb2dc83f26339fccb84e4dfa276dd66995f9835903a54a945c8d1875cfdb1ec5ebcf3e55441d5f0aad5a0304e4d9b03db515ac72cb18
-Homepage: http://wiki.ros.org/create_driver
-Description: ROS driver for iRobot's Create and Roomba platforms, based on libcreate
-
-Package: ros-noetic-create-msgs
-Architecture: amd64
-Version: 2.0.0-0focal
-Priority: optional
-Section: misc
-Maintainer: Jacob Perron <jacobmperron@gmail.com>
-Installed-Size: 290
-Depends: ros-noetic-message-runtime, ros-noetic-std-msgs
-Filename: pool/main/ros-noetic-create-msgs_2.0.0-0focal_amd64.deb
-Size: 28600
-MD5sum: 11056ddc9804cd7a14384152fe4b8986
-SHA1: c0d6eeaa3ebbd31c43a2c160ed951fd7e474165c
-SHA256: 5a34f20cfeaeccca7291548b3dc4c115c68bf6aae707d794d487e15a4f93b28b
-SHA512: cfc587280265aa5d9236c9bd61a15bf076ecca9b79f7e8bcbe93cc87c957b405170d8391006d025c1948fbe5522f1028b62b59eb127dd1c60db18d3c36d0c38a
-Homepage: http://wiki.ros.org/create_msgs
-Description: Common message definitions for create_robot
-
-Package: ros-noetic-create-robot
-Architecture: amd64
-Version: 2.0.0-0focal
-Priority: optional
-Section: misc
-Maintainer: Jacob Perron <jacobmperron@gmail.com>
-Installed-Size: 14
-Depends: ros-noetic-create-bringup, ros-noetic-create-description, ros-noetic-create-driver, ros-noetic-create-msgs
-Filename: pool/main/ros-noetic-create-robot_2.0.0-0focal_amd64.deb
-Size: 2252
-MD5sum: bd3fdad034c96192f792ef135f658527
-SHA1: 2b16971b9712d69fe8f83939cc1b85784b3a61a3
-SHA256: ad907327173499a0a829a84bc389cb1c3b4cc2a87bebdc4eda8414673139258d
-SHA512: 82fac7d9767d27d9522ef6aea8797f2f0661a8cb93737cde4548aefe8024c35555b08817265a96adabedea8558468d77ebc10e603b87de7543292162c17dd4e4
-Homepage: http://wiki.ros.org/create_robot
-Description: ROS driver for iRobot's Create 1 and 2, based on the libcreate C++ library
-
-Package: ros-noetic-kobuki-auto-docking
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Younghun Ju <yhju@yujinrobot.com>
-Installed-Size: 939
-Depends: libboost-thread1.71.0, libc6 (>= 2.17), libconsole-bridge0.4, libgcc-s1 (>= 3.0), liborocos-kdl1.4, libstdc++6 (>= 9), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-ecl-geometry, ros-noetic-ecl-linear-algebra, ros-noetic-ecl-threads, ros-noetic-geometry-msgs, ros-noetic-kdl-conversions, ros-noetic-kobuki-dock-drive, ros-noetic-kobuki-msgs, ros-noetic-message-filters, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-yocs-cmd-vel-mux
-Filename: pool/main/ros-noetic-kobuki-auto-docking_0.7.6-0focal_amd64.deb
-Size: 175096
-MD5sum: 07048be357c13dfb6dd337ba0308c4da
-SHA1: 54337400b3ebdd43e1dff92e8276733e65c84edb
-SHA256: 3c3fd688d2b6c99d618db6ddfee1ac323878cd89901d0cdb0f3954b924e74185
-SHA512: b6f377c0daace1f008e5a6ca9205bbd8c6fbec4e6a96f72d392671d9bcdaaaf331c1ffa51dc5958c771682f943a9e4b5797884b3962db5bedf6d9b71ea389ab0
-Homepage: http://ros.org/wiki/kobuki_auto_docking
-Description: Automatic docking for Kobuki: Users owning a docking station for Kobuki can use this tool to let Kobuki find its nest autonomously.
-
-Package: ros-noetic-kobuki-bumper2pc
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Jorge Santos Simon <jorge@yujinrobot.com>
-Installed-Size: 156
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-kobuki-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-sensor-msgs
-Filename: pool/main/ros-noetic-kobuki-bumper2pc_0.7.6-0focal_amd64.deb
-Size: 38808
-MD5sum: 2947a8d2b13c5655ff1a6bfe18178471
-SHA1: 4e04d03b1d303b731137889a8eaadb01059f2b24
-SHA256: 9e49384d86f18a9b7f241c6e6da512c57c596c43e5f2b749f993ad25f2e82f0a
-SHA512: 893cfd8e4f0e53ef2897987bcbefdfe76a814be21387d8d859888bcbf7967f1cda01bf2edb6c05eddcf767aaff183ce9346dc4be72d565fb58440524f7caef8e
-Homepage: http://ros.org/wiki/kobuki_bumper2pc
-Description: Bumper/cliff to pointcloud nodelet: Publish bumpers and cliff sensors events as points in a pointcloud, so navistack can use them for poor-man navigation.
- Implemented as a nodelet intended to run together with kobuki_node.
-
-Package: ros-noetic-kobuki-controller-tutorial
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 187
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-kobuki-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-yocs-controllers
-Filename: pool/main/ros-noetic-kobuki-controller-tutorial_0.7.6-0focal_amd64.deb
-Size: 41932
-MD5sum: 2e8d5f8168dd17aa641faec4b4aa1f8b
-SHA1: 997c678a242cb580781404a1da451e07760647a4
-SHA256: 40e06e7782168b49fcac30ce3136c3da58523b104eb06408e644922ba25f8985
-SHA512: 5b063c79f35ff8a8464bfac88ed5b0e0c5abaae7027978dd101520009ac50ce9e188767440d7b3430a17b03629dcfca34186fdf8d79db7a8405647852c40d00f
-Homepage: http://ros.org/wiki/kobuki_controller_tutorial
-Description: Code for the Kobuki controller tutorial.
-
-Package: ros-noetic-kobuki-dashboard
-Architecture: amd64
-Version: 0.5.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 63
-Depends: ros-noetic-kobuki-msgs, ros-noetic-rospy, ros-noetic-rqt-robot-dashboard
-Filename: pool/main/ros-noetic-kobuki-dashboard_0.5.7-0focal_amd64.deb
-Size: 14628
-MD5sum: 6fc634b2af04474c9495efe7775ff8c4
-SHA1: f555b76759853ef1df439c25a05a9c7b67e57cae
-SHA256: 7734cc017a5a284952beaf1a00ae30b3ed656f2fac6205a0820d5f55d5d408cc
-SHA512: e48057f3def61c9494d55dbc03e7b108a75caa3f5010522968ab063444a68252afeb4d6535ab32b1fe0ce7c9986fb4fc62d5c0cb2706fb2bb462ec47bc3138d9
-Homepage: http://ros.org/wiki/kobuki_dashboard
-Description: The Kobuki dashboard is a RQT-based plug-in for visualising data from Kobuki and giving easy access to basic functionalities.
-
-Package: ros-noetic-kobuki-description
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Younghun Ju <yhju@yujinrobot.com>
-Installed-Size: 1864
-Depends: ros-noetic-urdf, ros-noetic-xacro
-Filename: pool/main/ros-noetic-kobuki-description_0.7.6-0focal_amd64.deb
-Size: 847788
-MD5sum: 54ead24d2e67845b5b6e1e6f320426ab
-SHA1: 42721a50f3317d2875f9ac91afdbbfa65965fe2b
-SHA256: e8ea8c348048cdcf7102f75bbbca72547b113d2b134adc5d76e8332eb0b33241
-SHA512: fc47c4454223b0ef97dffe649dc3b3bcc06d1bb9e3e326a2c801dd72aa50b57191005162f0b7826adf5ac7bfb2d4f4a4645ef3488773775ebf590466959d8c93
-Homepage: http://ros.org/wiki/kobuki_description
-Description: Description of the Kobuki model.
- Provides the model description of Kobuki for simulation and visualisation. The files in this package are parsed and used by a variety of other components. Most users will not interact directly with this package. WARNING: This package is disabled because it cannot be catkinized by now, as xacro dependency is not catkin still. In the interim we use a unary pre-catkin stack named kobuki_description.
-
-Package: ros-noetic-kobuki-desktop
-Architecture: amd64
-Version: 0.5.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 14
-Depends: ros-noetic-kobuki-dashboard, ros-noetic-kobuki-gazebo, ros-noetic-kobuki-gazebo-plugins, ros-noetic-kobuki-qtestsuite, ros-noetic-kobuki-rviz-launchers
-Filename: pool/main/ros-noetic-kobuki-desktop_0.5.7-0focal_amd64.deb
-Size: 2220
-MD5sum: a78e9009fe811e71b9e168c83849d3d1
-SHA1: 959f040b5f10ed8259d5b764200d11798a0df798
-SHA256: 59b7cd1d32daac5b7d0347af791dfd2b1249f3fb24139fb5bb50d97796174f71
-SHA512: 4e0bc9506350c36dd42b580eaa27a11860b967ea53bfdcbf3ae170877c4694f8f5a50e87734f9ac97fee2ce38bf4d536ddb9542a2ec9a4a2cde48f86ccab4632
-Homepage: http://ros.org/wiki/kobuki_desktop
-Description: Visualisation and simulation tools for Kobuki
-
-Package: ros-noetic-kobuki-gazebo-plugins
-Architecture: amd64
-Version: 0.5.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 563
-Depends: libc6 (>= 2.14), libgazebo11 (>= 11.14.0), libgcc-s1 (>= 3.0), libsdformat9 (>= 9.10.0), libstdc++6 (>= 9), libboost-all-dev, ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-geometry-msgs, ros-noetic-kobuki-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
-Filename: pool/main/ros-noetic-kobuki-gazebo-plugins_0.5.7-0focal_amd64.deb
-Size: 131376
-MD5sum: 60244441a1b78817c4ec26c31eb747ad
-SHA1: 0d31e7267bd69f01f557c2a34b57c4c75dfb7781
-SHA256: a00823bb3ec64e445a2994da195317909c071f160810b94ed5ac26a0d00a69e3
-SHA512: d1345e7ea0a4fb528e0cddf532a8975e7997fbe81e306ca181fef68b4b4afb21cd3826a78184dfb64af49e4f2425f5066f554f46687a42cecf6cb4cd2593e2bb
-Homepage: http://ros.org/wiki/kobuki_gazebo_plugins
-Description: Kobuki-specific ROS plugins for Gazebo
-
-Package: ros-noetic-kobuki-gazebo
-Architecture: amd64
-Version: 0.5.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 84
-Depends: ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-kobuki-description, ros-noetic-kobuki-gazebo-plugins, ros-noetic-kobuki-random-walker, ros-noetic-kobuki-safety-controller, ros-noetic-robot-state-publisher, ros-noetic-yocs-cmd-vel-mux
-Filename: pool/main/ros-noetic-kobuki-gazebo_0.5.7-0focal_amd64.deb
-Size: 7764
-MD5sum: 11d2c459f02255fc943dc4dc3ee9a0c5
-SHA1: 9395cc170dc5376da3a4119bd9b098587dac57f6
-SHA256: 2bc108d15b7369c1c94f281ede209b8ad4cc0b775be5eb83b8514cbbe2bf69d9
-SHA512: ca806a1dd9c3c919c1f4ff21cfec7e3ce6a1a883137790c824ceace7d98baf3a51b82ea9e7b0971c46306222f41c245363ec20500369fe2000de08429e790383
-Homepage: http://ros.org/wiki/kobuki_gazebo
-Description: Kobuki simulation for Gazebo
-
-Package: ros-noetic-kobuki-keyop
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@yujinrobot.com>
-Installed-Size: 196
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-ecl-exceptions, ros-noetic-ecl-threads, ros-noetic-ecl-time, ros-noetic-geometry-msgs, ros-noetic-kobuki-msgs, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-std-srvs, ros-noetic-yocs-cmd-vel-mux, ros-noetic-yocs-velocity-smoother
-Filename: pool/main/ros-noetic-kobuki-keyop_0.7.6-0focal_amd64.deb
-Size: 47300
-MD5sum: d349bf989353a8bc486cd0afa740cd49
-SHA1: 2727b67aecd36ccbf0c6a5848f50524d5c372548
-SHA256: 088651ff292fedd8b666a30156a753a0724d40ef7d06e28041ebce8e60e86c02
-SHA512: 4e2470eadcabc84bd6f75fe9970bdaed5d77640c1173dc12b5a93f3e967bb843749b876d2c553949cbcdc36927cbde1e33f2db004bee8f287624a9e2bd32d5ec
-Homepage: http://ros.org/wiki/kobuki_keyop
-Description: Keyboard teleoperation for Kobuki: relays commands from a keyboard to Kobuki.
-
-Package: ros-noetic-kobuki-node
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <d.stonier@gmail.com>
-Installed-Size: 983
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-angles, ros-noetic-capabilities, ros-noetic-diagnostic-aggregator, ros-noetic-diagnostic-msgs, ros-noetic-diagnostic-updater, ros-noetic-ecl-exceptions, ros-noetic-ecl-sigslots, ros-noetic-ecl-streams, ros-noetic-ecl-threads, ros-noetic-geometry-msgs, ros-noetic-kobuki-driver, ros-noetic-kobuki-ftdi, ros-noetic-kobuki-keyop, ros-noetic-kobuki-msgs, ros-noetic-kobuki-rapps, ros-noetic-kobuki-safety-controller, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
-Filename: pool/main/ros-noetic-kobuki-node_0.7.6-0focal_amd64.deb
-Size: 189444
-MD5sum: d552f44ccf04aa751efd2ca5346bd63b
-SHA1: 884a29a0be8ea0cb631771402685768b976d3644
-SHA256: 724c71ca0f96ca689cc416dc1d9fa3e00ecc95a26721845af65286a3d24bb211
-SHA512: 5112e816846375e50c5d717d89ff206cae9efe805f767db125692ca4834e8cec66798f79b8fdd379d810bfb08e08b3dac7df1d1c926a81a3e3b782dc5d728f44
-Homepage: http://ros.org/wiki/kobuki_node
-Description: ROS nodelet for Kobuki: ROS wrapper for the Kobuki driver.
-
-Package: ros-noetic-kobuki-qtestsuite
-Architecture: amd64
-Version: 0.5.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@yujinrobot.com>
-Installed-Size: 263
-Depends: pyqt5-dev-tools, ros-noetic-geometry-msgs, ros-noetic-kobuki-testsuite, ros-noetic-nav-msgs, ros-noetic-qt-gui-py-common, ros-noetic-rospy, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py, ros-noetic-rqt-plot, ros-noetic-rqt-py-common
-Filename: pool/main/ros-noetic-kobuki-qtestsuite_0.5.7-0focal_amd64.deb
-Size: 42572
-MD5sum: 4ad4bda5d78115c03c847db8c90da5e7
-SHA1: d964e09ac252038c801458cbd522cd0294e9e802
-SHA256: 7163e011b72646a3ae8a1f57528d750fa73da112f7257ae8b349e1a999a3e863
-SHA512: c2a8cb132d41d13327aded6580e8cc555a5f78f8dd9e13a1bf0d94dfd0670e8c91a107c19bc1851102d28326651ded1e9e1856fac69161d8f9f3376b25a81fcc
-Homepage: http://ros.org/wiki/kobuki_qtestsuite
-Description: An rqt plugin that provides a graphical, interactive testsuite for Kobuki.
-
-Package: ros-noetic-kobuki-random-walker
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 263
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-ecl-threads, ros-noetic-geometry-msgs, ros-noetic-kobuki-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-yocs-cmd-vel-mux, ros-noetic-yocs-controllers
-Filename: pool/main/ros-noetic-kobuki-random-walker_0.7.6-0focal_amd64.deb
-Size: 52420
-MD5sum: 30542c678a2488c92a10570ea79b6aee
-SHA1: d9883efec37dc67cafd0c45e843665ffca12b764
-SHA256: d1f5a84baf7d1eb2de3195cf232e6122948816e0c34a9af66f62710a60bcd364
-SHA512: 917616726f8fcbd783026e8b1b04ee063302b904dcb7e282092a555b4e92453db406924af9cc9ec898abbe5b117764a731424ac8b769b5d5b1f725d5d6e5355a
-Homepage: http://ros.org/wiki/kobuki_random_walker
-Description: Random walker app for Kobuki
-
-Package: ros-noetic-kobuki-rapps
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 49
-Depends: ros-noetic-kobuki-auto-docking, ros-noetic-kobuki-random-walker, ros-noetic-nodelet
-Filename: pool/main/ros-noetic-kobuki-rapps_0.7.6-0focal_amd64.deb
-Size: 15900
-MD5sum: 8aff409a5669fa596cbb8d19c9f4b963
-SHA1: 366575c1685a79b2ed49e76acb0f91243a96f947
-SHA256: 97ae41e71623caa92a99e93963bece32859e124b7aa3a385d5ccccc0443c74ba
-SHA512: 5a6a7bd40b00ee19dd0201161c96ae2bf89fa01e4f027d678898636e7b5767326ae407ec227262bcbe868ccca0b64dcb7e608ba3ce56a251dc46706a7acb4b9e
-Homepage: http://ros.org/wiki/kobuki_rapps
-Description: Robot apps for Kobuki
-
-Package: ros-noetic-kobuki-rviz-launchers
-Architecture: amd64
-Version: 0.5.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 38
-Depends: ros-noetic-rviz
-Filename: pool/main/ros-noetic-kobuki-rviz-launchers_0.5.7-0focal_amd64.deb
-Size: 6724
-MD5sum: 96ee50fcf3ace19ac677ab942f907188
-SHA1: b2e8bf2ce537536e3d49ec5aeb22e9731d02c48e
-SHA256: 903ebeb5cbb45efe7a93d24341c75342d134a169b9b7fd8bf3d4e74f537606fa
-SHA512: b39996c24bf6fc8a8336307efa4a51c1511103c359f5ef82024b8011de1b1544a6040dd9b3d85f96021bac5bfb681d83bbd6e33b5ddf497888c21cdbbfe00bf8
-Homepage: http://ros.org/wiki/kobuki_rviz_launchers
-Description: The kobuki_rviz_launchers package
-
-Package: ros-noetic-kobuki-safety-controller
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 245
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-ecl-threads, ros-noetic-geometry-msgs, ros-noetic-kobuki-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-yocs-controllers
-Filename: pool/main/ros-noetic-kobuki-safety-controller_0.7.6-0focal_amd64.deb
-Size: 50840
-MD5sum: b883e3e6f2800498601d418b5a6777c8
-SHA1: 03296068e60848ca5dba7ed802d9b80571808223
-SHA256: b17021e49e608e0d7af112149887e33ce690465e6f2b78e0c2295a18e7bc5ecb
-SHA512: b5fe9a82f204944577b78f367792133e8d082c292c7364119d25f216f94bbd6f9f18e480e846b75dfddb1078acaae180426783e4bed0e6c14ff2b539bb8bbb02
-Homepage: http://ros.org/wiki/kobuki_safety_controller
-Description: A controller ensuring the safe operation of Kobuki.
- The SafetyController keeps track of bumper, cliff and wheel drop events. In case of the first two, Kobuki is commanded to move back. In the latter case, Kobuki is stopped. This controller can be enabled/disabled. The safety states (bumper pressed etc.) can be reset. WARNING: Dangerous!
-
-Package: ros-noetic-kobuki-testsuite
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Jorge Santos Simon <jorge@yujinrobot.com>
-Installed-Size: 169
-Depends: ros-noetic-geometry-msgs, ros-noetic-kobuki-msgs, ros-noetic-kobuki-node, ros-noetic-message-runtime, ros-noetic-python-orocos-kdl, ros-noetic-sensor-msgs, ros-noetic-std-msgs
-Filename: pool/main/ros-noetic-kobuki-testsuite_0.7.6-0focal_amd64.deb
-Size: 29136
-MD5sum: 821521880f9ab20ada61b9059067a7ea
-SHA1: b2e0ff0e30c2b6fb5f329681d64e0e7ef147678e
-SHA256: a0d527139afaf41d3aea89fad3357bd6f5374c2643f37625042c0aec9e5bf554
-SHA512: 183987cc7d2c510cdec6b1a600728e74da890acc2ef9448722991d8e548cb5690e261f9a8db36eaff68acc6919a06662a711f2b255540df3825cadbf070ec9fa
-Homepage: http://ros.org/wiki/kobuki_testsuite
-Description: Kobuki test suite: this package provides tools to thoroughly test Kobuki's hardware.
-
-Package: ros-noetic-kobuki
-Architecture: amd64
-Version: 0.7.6-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@yujinrobot.com>
-Installed-Size: 15
-Depends: ros-noetic-kobuki-auto-docking, ros-noetic-kobuki-bumper2pc, ros-noetic-kobuki-capabilities, ros-noetic-kobuki-controller-tutorial, ros-noetic-kobuki-description, ros-noetic-kobuki-keyop, ros-noetic-kobuki-node, ros-noetic-kobuki-random-walker, ros-noetic-kobuki-rapps, ros-noetic-kobuki-safety-controller, ros-noetic-kobuki-testsuite
-Filename: pool/main/ros-noetic-kobuki_0.7.6-0focal_amd64.deb
-Size: 2620
-MD5sum: 713c4d7a9c3e7a0544f787b7801d13b6
-SHA1: 722a2fe73684feb1381c29c232a896b2e25edf43
-SHA256: b24c399c7c69e4df4d31d4ad83bbe6272d08f491ac1428ee54cdae78117669b4
-SHA512: 7092c7db0a9ad97881da1c58dcea26c37805f9242275a451642f50dd081f92e3d5d25abcb1f2395e271f555285db0e40dddae456f847fe2c7b3358cb30f863aa
-Homepage: http://ros.org/wiki/kobuki
-Description: Software for Kobuki, Yujin Robot's mobile research base.
-
 Package: ros-noetic-stdr-gui
 Architecture: amd64
 Version: 0.4.1-0focal
@@ -392,6 +15,23 @@ SHA512: ed696baeac7a7373c04f025656fd9169642b59f091825944161984c2d00d5c2ea7b96f5c
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: A gui in Qt for visualizing purposes in STDR Simulator.
 
+Package: ros-noetic-stdr-gui
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 3263
+Depends: libboost-thread1.71.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 9), libqt5gui5, ros-noetic-map-server, ros-noetic-nav-msgs, ros-noetic-qt-gui, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-robot, ros-noetic-stdr-server, ros-noetic-tf
+Filename: pool/main/ros-noetic-stdr-gui_0.4.2-0focal_amd64.deb
+Size: 1023432
+MD5sum: 428cd0b3a2efb4604b08a3ecce0d4b85
+SHA1: dab8f3fad2623b7ea1b048191c1c4f86536e3ba3
+SHA256: 32854dbf99068f68c9ff84e4b1d740ca81cf83cf06d99478047e88fcc88b014f
+SHA512: d6abee3a0305825320c11d4e5e665db53072092096e26b1194b371085a907347e3f787caf9d3cdf99420556702b0a6a82525fa77f956604959842f5e6ef9585b
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: A gui in Qt for visualizing purposes in STDR Simulator.
+
 Package: ros-noetic-stdr-launchers
 Architecture: amd64
 Version: 0.4.1-0focal
@@ -401,11 +41,28 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 42
 Depends: ros-noetic-rviz, ros-noetic-stdr-gui, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-server
 Filename: pool/main/ros-noetic-stdr-launchers_0.4.1-0focal_amd64.deb
-Size: 7396
-MD5sum: 829fe2a1b409e79d5223f95e191a67df
-SHA1: 879d6c3408f8016c252a675c3d837c0ea62ff30a
-SHA256: 8ac984f0e8366fd69e816738a36fcf078d9f5386b8e2e441ea0631c618e8f5a9
-SHA512: ad937b8382f12bdd00dc052fe1e3a9afcb4cbf1c986d36cab5c4a17e56ff9a91b738d8d4bb6fff7a1a8f4c614adf6314ff92bcd7d34b29c4da43193075da3a44
+Size: 7384
+MD5sum: 9ccf5366a12b5dd3fa3f88aae046cf09
+SHA1: 42f0183810f3a2ac014dcdbc1ebc6a6c1dbf3a43
+SHA256: 209b1427307564f48d49c8c23d743ec9ed6e9d15d97b9fd55c3b948f5577e559
+SHA512: a06cf99f00ac41af74025c72da8327fe6f7ed759c870813cf5358b3908ec55d242ea10ee0eca50ae14cfd237b864446f05778d824b8dbeb6d32a90620bb911a0
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Launch files, to easily bringup server, robots, guis
+
+Package: ros-noetic-stdr-launchers
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 42
+Depends: ros-noetic-rviz, ros-noetic-stdr-gui, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-server
+Filename: pool/main/ros-noetic-stdr-launchers_0.4.2-0focal_amd64.deb
+Size: 7376
+MD5sum: 4c2c14f6864e03dc2966605f6227709d
+SHA1: cc3334fa9b4f12403718a5461c18a7129121e726
+SHA256: 7865822e68a0f13f5de55071b243707cb5780ad4a56e037e392811d60f845263
+SHA512: dcdc79914f65e11e2cc16e8bd83787e5f235b3b5e3462d074a752298cdbbf89018e6013cd2b7c4335cfdbb5f3950dd9406cb3692ce0ce70528b586baa753fd86
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Launch files, to easily bringup server, robots, guis
 
@@ -426,6 +83,23 @@ SHA512: ce74b704136365e7c9db5c4828fde6868bc50eb61b2cf3279949597162b4f2b51cf6b19a
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides msgs, services and actions for STDR Simulator.
 
+Package: ros-noetic-stdr-msgs
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 3630
+Depends: ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-std-msgs
+Filename: pool/main/ros-noetic-stdr-msgs_0.4.2-0focal_amd64.deb
+Size: 149616
+MD5sum: dd2cb4ffd6e753786dda3d87e65c489c
+SHA1: cd7d63b4e6733b7c4d5c9a6a506c33209dc51427
+SHA256: dae2076cf535a2ab455ad93f914cde7c6ddfd72707df7b84d95aa2b7d842a4aa
+SHA512: 8cec5faba50883aa29ec0a54fa9fa335db220693fea826a7188ce386fd18f5eed05a9940d9be6c369d9e876278f76c73338fd6c5ea45e0a4cc8701c1f96dcb39
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Provides msgs, services and actions for STDR Simulator.
+
 Package: ros-noetic-stdr-parser
 Architecture: amd64
 Version: 0.4.1-0focal
@@ -443,6 +117,23 @@ SHA512: 35105faf3e4df208477484f38627a4caf681414135eac14dfdc27453ee2a4289689bf637
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides a library to STDR Simulator, to parse yaml and xml description files.
 
+Package: ros-noetic-stdr-parser
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 384
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libtinyxml2.6.2v5, libyaml-cpp0.6 (>= 0.6.2), libtinyxml-dev, libyaml-cpp-dev, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-stdr-msgs
+Filename: pool/main/ros-noetic-stdr-parser_0.4.2-0focal_amd64.deb
+Size: 98980
+MD5sum: 59c09be20c301a4c8e4a68022c873512
+SHA1: fb430ae08caf88c445c7b220a60c99e69eccc877
+SHA256: 204731a9d5064dd5f5de7cc486f43684b71713b0c8470f6622fccd8cc48c250a
+SHA512: 2add84c2917b65ea65e7ddb4914ffefccc4d253ecf6ae890e7bb5b75eea31de1abbf7af685c54f314763bb57e35c54db4a631b2beed599927e7a1da20839db07
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Provides a library to STDR Simulator, to parse yaml and xml description files.
+
 Package: ros-noetic-stdr-resources
 Architecture: amd64
 Version: 0.4.1-0focal
@@ -451,11 +142,27 @@ Section: misc
 Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 435
 Filename: pool/main/ros-noetic-stdr-resources_0.4.1-0focal_amd64.deb
-Size: 256420
-MD5sum: e27b68e056e5abbf97919b804b0602cb
-SHA1: 20371a436d095a421f52af5b50a0138ba8045400
-SHA256: 942fbdddc271acdfb6d5a4c7ce720df29c6220a118660792c5cb0e94463b9b2f
-SHA512: 62cbd4a7dd2bc31a24efd1b77da43c96c46c30b1f4eaf61e507ddce4169062728d754a7ddb5de80363fa2dcb15f7be52a80b870091971ebe3718e3eee074104a
+Size: 256428
+MD5sum: 8bd4e4533c079dfba1d7b65c585da008
+SHA1: ebbab51d1624e7ba80eb93ac43ef348542e31dd4
+SHA256: f1e7e3faca07f4b91a512eed2589823d2cb9f85d085371782de06e2f9f09e660
+SHA512: d1e7abfabd8517bf84912069fab65de84f36b1ce30c123260cc1ec3961367704b34199816f0b5bdca12c19ef25d528f645b4cdec51d1dc14eb3b78106ecb5fa7
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Provides robot and sensor descripiton files for STDR Simulator.
+
+Package: ros-noetic-stdr-resources
+Architecture: amd64
+Version: 0.4.3-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 435
+Filename: pool/main/ros-noetic-stdr-resources_0.4.3-0focal_amd64.deb
+Size: 256404
+MD5sum: 8a88d8ff3c044359b4dc5d01c4d770d7
+SHA1: a8721c80b5e14c5c9cc03f326f555da52c84c3b3
+SHA256: b49273cc1ef5b6246c86e5f5083edafa41da4e4dad3c9eeaab7565c796f200b4
+SHA512: 5a1c0b30fd49cf89e6be5cb6ca91ce57f4222dfaeec85b4f52196f349e9ab82a5963a851cf2fe450cae349336a1ff415280e98f5b88277a94dc01bc56549d8d9
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides robot and sensor descripiton files for STDR Simulator.
 
@@ -476,6 +183,23 @@ SHA512: 309edcca375506686bc41cf558c58e931190f8ff9e2409c4a95a4fbd74daca0fe8c9370a
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides robot, sensor implementation, using nodelets for stdr_server to load them.
 
+Package: ros-noetic-stdr-robot
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 2538
+Depends: libboost-thread1.71.0, libc6 (>= 2.17), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-actionlib, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-server, ros-noetic-tf
+Filename: pool/main/ros-noetic-stdr-robot_0.4.2-0focal_amd64.deb
+Size: 362488
+MD5sum: 983c4175075041bd2bd486eaae1cc82a
+SHA1: 9436d6bb7ccbbedcffe621518fcc83f8e81b74f0
+SHA256: 8987ff044ffd99d5a0d69caa7b554058936fd1a34e9db92b8ea02606b817ccae
+SHA512: c29998b41422dd6b5569456a4854f2feceaa9aa21918214bde7018d4fb5b3ccd01f7cbe3695252fc7cfb4b29a9de3ee09eed3e0f263009780f2dd33d11da1408
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Provides robot, sensor implementation, using nodelets for stdr_server to load them.
+
 Package: ros-noetic-stdr-samples
 Architecture: amd64
 Version: 0.4.1-0focal
@@ -493,6 +217,23 @@ SHA512: 6cf7c3d235dcd01c94dac45053427ddf4ad6f1b4c4d7282667e6c144873cd1ca680b077f
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Provides sample codes to demonstrate STDR simulator functionalities.
 
+Package: ros-noetic-stdr-samples
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 129
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-sensor-msgs, ros-noetic-stdr-msgs, ros-noetic-tf
+Filename: pool/main/ros-noetic-stdr-samples_0.4.2-0focal_amd64.deb
+Size: 32848
+MD5sum: e13ad6bb15a3cf928e027ca3c9fb8df8
+SHA1: a7664da138b93e019776a50bba7c9631f001cb06
+SHA256: 0aa52f5d202ad3429c9987aba153e58dbb9732e43d3b739c97f111d16e516d5b
+SHA512: aeebc78c51ec6211c606e5b5ac2ce09b3aa6e0ab05ef72139f5dc88a71e19c6d57fb4de9e7d032bc870f11e956861d2238cdbd155770f2fea3720f2bcee23bb8
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Provides sample codes to demonstrate STDR simulator functionalities.
+
 Package: ros-noetic-stdr-server
 Architecture: amd64
 Version: 0.4.1-0focal
@@ -502,11 +243,28 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 1453
 Depends: libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-actionlib, ros-noetic-map-server, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-stdr-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
 Filename: pool/main/ros-noetic-stdr-server_0.4.1-0focal_amd64.deb
-Size: 250588
-MD5sum: 3fe4bde8dac061651507be95a15ab080
-SHA1: 09cea393890f39e96db9b4ffa2b2e15e1f7cc7f8
-SHA256: 34d5bbec1832da0bea76e66616bb318a0c3928624cd4d7e62f429a28e861b233
-SHA512: 502bee867c769dffe2936c3c94842847162c3263e02f527c0093b9fe3397654436c1b47ce205aacc33bc6a6ac210b4583200c34b420e9b4940f79d4401d55c74
+Size: 250284
+MD5sum: cfe40357cb9e688c3038d2f4625ccff4
+SHA1: 62c18ad06501f75ec961653b47fd8201744e96f6
+SHA256: 4bbccce658fbc8ef87df41a22d1a991a80b6c076ed812d9adcbec3a5ca9c2759
+SHA512: 7cc26f755bc1f1da1fcb287e365d88b907fbb5c76fcd3f874315823608fbe695280db9f712ef8cbc5a53d772390ea69de6ac3cf692f78b2d9c5bee7029164e1f
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: Implements synchronization and coordination functionalities of STDR Simulator.
+
+Package: ros-noetic-stdr-server
+Architecture: amd64
+Version: 0.4.2-0focal
+Priority: optional
+Section: misc
+Maintainer: Chris Zalidis <zalidis@gmail.com>
+Installed-Size: 1453
+Depends: libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-actionlib, ros-noetic-map-server, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-stdr-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
+Filename: pool/main/ros-noetic-stdr-server_0.4.2-0focal_amd64.deb
+Size: 250384
+MD5sum: 80d19f2738a60604675c92a74d8b867e
+SHA1: de7a7e5942ac83832fef8dd5d7c998ec9802880a
+SHA256: 96162a1bfbca005dc32e461cba747e688db9a95f736dc6905a0e8b0fb9090b9d
+SHA512: a5799ebe6a5fb3ac96571ae1fd69111e4267b683e745ef482a1a7d32ce4e116af159deffee4e39b9dad3cd4dc678a50bde4367b5a0968c25a197963938d2b457
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: Implements synchronization and coordination functionalities of STDR Simulator.
 
@@ -519,341 +277,28 @@ Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 15
 Depends: ros-noetic-stdr-gui, ros-noetic-stdr-launchers, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-samples, ros-noetic-stdr-server
 Filename: pool/main/ros-noetic-stdr-simulator_0.4.1-0focal_amd64.deb
-Size: 2184
-MD5sum: 7fa0a2364759bc9c5ae339cc63b08816
-SHA1: c13296383e2c07c8401ec346df142a95ad482cf7
-SHA256: 21d0ebc632cf73e3b5cb547282fcd59693648ca7a4d0fd17ff632e7490357d8d
-SHA512: db3ab2c1f8b106e4dfdcd71ca3eb3e1085bca7c5a27d7b6906bd1897769ad6b279eff60515433476a03b4ff657803efbd99243c5ba0bbecdbecec243e19e57ef
+Size: 2192
+MD5sum: 6dfc4095ef061f9b00e32d45571869b9
+SHA1: 2f39f80943caf4c77b2189a158d680a0978a3805
+SHA256: f99aa25c3c3af12922defb52500cd8d97326e2c359c1e1b08a683932d3abef1c
+SHA512: 44e662a39f8e1bb8719203581b6633baa472ae33227b4e4ec61050b4d189a4527740c355342dccc68e99b0646c47af31014b860b4f33a57ae03d93943deae742
 Homepage: http://stdr-simulator-ros-pkg.github.io
 Description: A simple, flexible and scalable 2D multi-robot simulator.
 
-Package: ros-noetic-turtlebot-actions
+Package: ros-noetic-stdr-simulator
 Architecture: amd64
-Version: 2.3.7-0focal
+Version: 0.4.2-0focal
 Priority: optional
 Section: misc
-Maintainer: OSRF <turtlebot@osrfoundation.org>
-Installed-Size: 1575
-Depends: libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-features2d4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 5.2), libeigen3-dev, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-cv-bridge, ros-noetic-geometry-msgs, ros-noetic-image-geometry, ros-noetic-image-transport, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-tf, ros-noetic-turtlebot-bringup
-Filename: pool/main/ros-noetic-turtlebot-actions_2.3.7-0focal_amd64.deb
-Size: 181520
-MD5sum: bb0801c4c97da3ecdbb0432bed87502d
-SHA1: 46c7a4841f49d5c072a15bf4977ba68c8f796ff9
-SHA256: 233a2abebd29c35b9428c07624a411678833b72755254da9cf1334ec8246a9db
-SHA512: 42a538add3f292797aaf751b5509fa6466cb9ee4cd19d1510764e39602cd0d7ec8a31525f0954fe1637442bb3c55c117df732c656f873531bbf22615aec9a406
-Homepage: http://ros.org/wiki/turtlebot_actions
-Description: turtlebot_actions provides several basic actionlib actions for the TurtleBot.
-
-Package: ros-noetic-turtlebot-apps
-Architecture: amd64
-Version: 2.3.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@rnd.yujinrobot.com>
+Maintainer: Chris Zalidis <zalidis@gmail.com>
 Installed-Size: 15
-Depends: ros-noetic-turtlebot-actions, ros-noetic-turtlebot-calibration, ros-noetic-turtlebot-follower, ros-noetic-turtlebot-navigation, ros-noetic-turtlebot-rapps
-Filename: pool/main/ros-noetic-turtlebot-apps_2.3.7-0focal_amd64.deb
-Size: 2516
-MD5sum: 6789d9b791a9df6bb76b0aa7fdd194ce
-SHA1: 9dc12ac84c757dd7517ea49690e17aa7faea7961
-SHA256: 21928cb9b356dc47d6aa644edf1f6a3a43b670173b4dd72d02987421df978675
-SHA512: 380404871f93dda537872a72fdd892a6b173a434f024f2804cbe69d07068263caf06fa52bbb0dadd444aecf33f16034010e0e0bbf0c52e73ee9186f416e2bd1a
-Homepage: http://ros.org/wiki/turtlebot_apps
-Description: turtlebot_apps is a group of simple demos and exmaples to run on your TurtleBot to help you get started with ROS and TurtleBot.
-
-Package: ros-noetic-turtlebot-bringup
-Architecture: amd64
-Version: 2.4.2-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <d.stonier@gmail.com>
-Installed-Size: 169
-Depends: ros-noetic-depthimage-to-laserscan, ros-noetic-diagnostic-aggregator, ros-noetic-kobuki-bumper2pc, ros-noetic-kobuki-node, ros-noetic-kobuki-safety-controller, ros-noetic-laptop-battery-monitor, ros-noetic-openni-launch, ros-noetic-realsense2-camera, ros-noetic-robot-pose-ekf, ros-noetic-robot-state-publisher, ros-noetic-turtlebot-description, ros-noetic-yocs-cmd-vel-mux
-Filename: pool/main/ros-noetic-turtlebot-bringup_2.4.2-0focal_amd64.deb
-Size: 63036
-MD5sum: ef36e313ff899b801eb97095a4f7bfe1
-SHA1: f0a4e487dd0435748b8ee69ba724d83f5aaed2a3
-SHA256: de46577ddad68a3160700e3190523ea209b989468228c30de7d1ad9e44472ea2
-SHA512: e23047c10313a25008211427549fcbd0724d75e8b22dce42f5942aa3cbff871056db62b6b474de5b8ba921c1750fc1057285631f6fb696a4c2aab6502cfa185f
-Homepage: http://ros.org/wiki/turtlebot_bringup
-Description: turtlebot_bringup provides roslaunch scripts for starting the TurtleBot base functionality.
-
-Package: ros-noetic-turtlebot-description
-Architecture: amd64
-Version: 2.4.2-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@yujinrobot.com>
-Installed-Size: 15779
-Depends: ros-noetic-create-description, ros-noetic-kobuki-description, ros-noetic-urdf, ros-noetic-xacro
-Filename: pool/main/ros-noetic-turtlebot-description_2.4.2-0focal_amd64.deb
-Size: 3028888
-MD5sum: 662ee98ed30cf24508e0280db6849242
-SHA1: bafcfe47312dff53b3977338a51de6d7f9ddf66b
-SHA256: cc1e52b0c68bacce1f3229225d0d240e809200ec17cd9150064e86b57a95f955
-SHA512: 64ee3c84d5b657f560f1ce3a07bc9b26735d620fc22d510e812b849a0c0dadc61105f0ce40f3670bb4888956570988954dca355b2edab19cbd69972b6e1f4dab
-Homepage: http://ros.org/wiki/turtlebot_description
-Description: turtlebot_description provides a complete 3D model of the TurtleBot for simulation and visualization.
- The files in this package are parsed and used by a variety of other components. Most users will not interact directly with this package.
-
-Package: ros-noetic-turtlebot-follower
-Architecture: amd64
-Version: 2.3.7-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@rnd.yujinrobot.com>
-Installed-Size: 409
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-depth-image-proc, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-topic-tools, ros-noetic-turtlebot-bringup, ros-noetic-turtlebot-msgs, ros-noetic-turtlebot-teleop, ros-noetic-visualization-msgs
-Filename: pool/main/ros-noetic-turtlebot-follower_2.3.7-0focal_amd64.deb
-Size: 88984
-MD5sum: 82560aa586c5eeec58d04812536c7a5f
-SHA1: 616072adeccb6e0d76063c05655c22467a47b80b
-SHA256: c3277ffbaa79bc9cbe778c01d4e3ae523a51f472eda018f178123d10baef60e0
-SHA512: 3ad1b3ac8d7086cae3c7a409b93eb2f083b50a7416852bf15cb8f6d928aaf45979f4ef1ad1e8b1249fa073ceb63ac9e8903c4a67473ccd4fa171f1af4d5f9c04
-Homepage: http://ros.org/wiki/turtlebot_apps
-Description: Follower for the turtlebot.
- Follows humans and robots around by following the centroid of a box points in front of the turtlebot.
-
-Package: ros-noetic-turtlebot-gazebo
-Architecture: amd64
-Version: 2.2.3-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 130
-Depends: ros-noetic-depthimage-to-laserscan, ros-noetic-diagnostic-aggregator, ros-noetic-gazebo-ros, ros-noetic-kobuki-gazebo-plugins, ros-noetic-robot-pose-ekf, ros-noetic-robot-state-publisher, ros-noetic-turtlebot-bringup, ros-noetic-turtlebot-description, ros-noetic-turtlebot-navigation, ros-noetic-xacro, ros-noetic-yocs-cmd-vel-mux
-Filename: pool/main/ros-noetic-turtlebot-gazebo_2.2.3-0focal_amd64.deb
-Size: 10828
-MD5sum: 9a702602e70777494f07027a5d1193b7
-SHA1: 52bb25cba6e99f1c698462a0f16859609c605d92
-SHA256: ee5f3ec81fbb4f3b2fb44de27441bae0c453600b10fee02f33cb49c8c9c0b15c
-SHA512: 3681d353fcbc4985643fd7d149577660c49c4dc4c88fccd24c1ea5773f782d47509118b834353a12b981f3b4adf33efb9cf112d1b42659ff440c27cd875dd51c
-Homepage: http://ros.org/wiki/turtlebot_gazebo
-Description: Gazebo launchers and worlds for TurtleBot simulation
-
-Package: ros-noetic-turtlebot-msgs
-Architecture: amd64
-Version: 2.2.1-0focal
-Priority: optional
-Section: misc
-Maintainer: Jorge Santos <jorge@rnd.yujinrobot.com>
-Installed-Size: 256
-Depends: ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs
-Filename: pool/main/ros-noetic-turtlebot-msgs_2.2.1-0focal_amd64.deb
-Size: 26472
-MD5sum: d42ca04183d53f88ae0a9eb8c3e8ac46
-SHA1: 0238cb9c2698a2f021260dd28c2a0903614cbf04
-SHA256: 112c825739cf5e2a5d7dd5f277e3bb0ebd109220beb1a735736f02d188f7530c
-SHA512: 12a8ce54cd0235974d15d4fd4e4ad460df6aeaa244db384c7e80d7d76c913aeb6bdccd1975e2b8219ff2b647c126db4784234c12f30e22b639e35d23e980f129
-Homepage: http://ros.org/wiki/turtlebot_msgs
-Description: Turtlebot messages, services and actions
-
-Package: ros-noetic-turtlebot-navigation
-Architecture: amd64
-Version: 2.3.7-0focal
-Priority: optional
-Section: misc
-Maintainer: OSRF <turtlebot@osrfoundation.org>
-Installed-Size: 570
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-amcl, ros-noetic-dwa-local-planner, ros-noetic-gmapping, ros-noetic-map-server, ros-noetic-move-base, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-turtlebot-bringup
-Filename: pool/main/ros-noetic-turtlebot-navigation_2.3.7-0focal_amd64.deb
-Size: 89692
-MD5sum: ef479ba201658625bbbdc74ba642d678
-SHA1: faf14d8042b3f7a62134481b4ebaf3fc5ff25815
-SHA256: f6d427b7690f59bef1891b85395abbb30ebd8fc19178728191f86932fb5cc60e
-SHA512: 4df23f4c3ea2076bc19fcb01c6a2bf0514d869a49da6ea80f989b4855b6c5f1a4f1c7fa51dcbff5c50e6e9b2ab04a5a28556e451d58bd1bac9d3c1a9ca96d803
-Homepage: http://ros.org/wiki/turtlebot_navigation
-Description: turtlebot_navigation
-
-Package: ros-noetic-turtlebot-simulator
-Architecture: amd64
-Version: 2.2.3-0focal
-Priority: optional
-Section: misc
-Maintainer: OSRF <turtlebot@osrfoundation.com>
-Installed-Size: 14
-Depends: ros-noetic-turtlebot-gazebo, ros-noetic-turtlebot-stage, ros-noetic-turtlebot-stdr
-Filename: pool/main/ros-noetic-turtlebot-simulator_2.2.3-0focal_amd64.deb
-Size: 2076
-MD5sum: 2efe094d06cfee2492ea177e3eeef030
-SHA1: 6998010d249ee6c2558e98d7c9d61cf4044009d1
-SHA256: 2e37ff00339f91f72af4d2af5fbe001cdb89f1d9517111a49b20efd23ffe3eb6
-SHA512: 710b6a7dae349d143d69eb967459007b67cf35de63c690f2e33fa51e51ffc031293c12eedaed6f3114b4d5c619da466153923587706e406f7a64b4c94a64c045
-Homepage: http://ros.org/wiki/turtlebot_simulator
-Description: Catkin metapackage for the turtlebot_simulator stack
-
-Package: ros-noetic-turtlebot-stage
-Architecture: amd64
-Version: 2.2.3-0focal
-Priority: optional
-Section: misc
-Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
-Installed-Size: 3048
-Depends: ros-noetic-navigation, ros-noetic-stage-ros, ros-noetic-turtlebot-bringup, ros-noetic-turtlebot-navigation, ros-noetic-yocs-velocity-smoother, ros-noetic-yocs-virtual-sensor
-Filename: pool/main/ros-noetic-turtlebot-stage_2.2.3-0focal_amd64.deb
-Size: 37676
-MD5sum: 737626d5e2b7bfdf3ce8f1ff700ef632
-SHA1: b07b3b46a85810343376471c5be554a1f844080f
-SHA256: ba87338a66b4189511d68968be220d024f5430824bca929e5f2c9d9b9d6b54e5
-SHA512: 3e9d577a715b51a540dbf1bfcadea5e3a9e8332d3f41d774fb656663d1566e091b55117e9be3eeda589024db6bc9fefee993a38face49c01eca9a7b14d2204db
-Homepage: http://wiki.ros.org/turtlebot_stage
-Description: Stage version of turtlebot simulation.
- Convenient to test 2D-navigation related stuffs
-
-Package: ros-noetic-turtlebot-stdr
-Architecture: amd64
-Version: 2.2.3-0focal
-Priority: optional
-Section: misc
-Maintainer: Mehdi Tlili <mehdi.tlili@gmail.com>
-Installed-Size: 358
-Depends: ros-noetic-navigation, ros-noetic-sdtr-server, ros-noetic-stdr-gui, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-turtlebot-bringup, ros-noetic-turtlebot-navigation, ros-noetic-yocs-velocity-smoother, ros-noetic-yocs-virtual-sensor
-Filename: pool/main/ros-noetic-turtlebot-stdr_2.2.3-0focal_amd64.deb
-Size: 254992
-MD5sum: db1515c46b6c54e3484d2222b2cb6176
-SHA1: ec6688f421c65a595b7fa5712bc545966137ca6b
-SHA256: 14cdd9367035699e6a97e7965025962152e07e2cc28b927f100791cfff0ec30f
-SHA512: 460f4159e6d8d71e3b3b08afa7cc1d3c9451583c90e01550ebb91116e5724c863c0bb22ae3e4123ff4c91e653ce17e58dcf77bf0cdabceab26f68838e957f9dc
-Homepage: http://wiki.ros.org/turtlebot_stdr
-Description: Stdr version of turtlebot simulation.
- Convenient to test 2D-navigation related stuffs
-
-Package: ros-noetic-turtlebot-teleop
-Architecture: amd64
-Version: 2.4.2-0focal
-Priority: optional
-Section: misc
-Maintainer: Melonee Wise <mwise@willowgarage.com>
-Installed-Size: 162
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-geometry-msgs, ros-noetic-joy, ros-noetic-kobuki-safety-controller, ros-noetic-roscpp, ros-noetic-turtlebot-bringup, ros-noetic-yocs-velocity-smoother
-Filename: pool/main/ros-noetic-turtlebot-teleop_2.4.2-0focal_amd64.deb
-Size: 39956
-MD5sum: 4c6778826400258ef86ed92c6745ad2e
-SHA1: c2a1111edf20e1582b1c964acaf8e28c931deb9a
-SHA256: f09f9049178a8d4104f3dc5eff9b49b18655c519aa692ed30863cb198607e0fd
-SHA512: 9b2ef1fd113109b84113a0158f062e7b9f2047108d2cae7967e95b21f821922871b023f2a1c6388661f5b9638d9048541bbebc7001fc5245818c0b35cc4200fb
-Homepage: http://ros.org/wiki/turtlebot_teleop
-Description: Provides teleoperation using joysticks or keyboard.
-
-Package: ros-noetic-turtlebot
-Architecture: amd64
-Version: 2.4.2-0focal
-Priority: optional
-Section: misc
-Maintainer: Daniel Stonier <stonier@rnd.yujinrobot.com>
-Installed-Size: 15
-Depends: ros-noetic-turtlebot-bringup, ros-noetic-turtlebot-capabilities, ros-noetic-turtlebot-description, ros-noetic-turtlebot-teleop
-Filename: pool/main/ros-noetic-turtlebot_2.4.2-0focal_amd64.deb
-Size: 2484
-MD5sum: 12de960a397c57355c4dfea0fd349330
-SHA1: e271c6a6a5ccc7309c2ae37e0a1222461bd980a9
-SHA256: 8376f94a84e0f124b3e15d4d06405b1ab9231f82e12e5b9b08322534ff6eac92
-SHA512: 2926a1aca17c29e93e9778cffe74cf560b74baf84f6a1ccc2dc2793de3a8dab4974ff2a4400678f771032c27ff4c5baad8cb1205c0d1fbcd4f7a53e637c1aaf5
-Homepage: http://ros.org/wiki/turtlebot
-Description: The turtlebot meta package provides all the basic drivers for running and using a TurtleBot.
-
-Package: ros-noetic-yocs-cmd-vel-mux
-Architecture: amd64
-Version: 0.12.1-0focal
-Priority: optional
-Section: misc
-Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
-Installed-Size: 433
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp
-Filename: pool/main/ros-noetic-yocs-cmd-vel-mux_0.12.1-0focal_amd64.deb
-Size: 102880
-MD5sum: 3969c31faa5c00890b756a0f7fbf36a9
-SHA1: 1279b2947b349dc8d64f8c5581617857d2bf33a7
-SHA256: 6bd485d753a1f1b9a7c802b227379fbadd7d75448f3c684ac7d7bf094062bace
-SHA512: ecfda2a96dc5f789036c180e18afe01524160a2550fc19446b16c1e168036a7b045002ad8f491bf811d39c49fffb670b4f642f37fcd331f8629f5748a43ceaad
-Homepage: http://ros.org/wiki/yocs_cmd_vel_mux
-Description: A multiplexer for command velocity inputs.
- Arbitrates incoming cmd_vel messages from several topics, allowing one topic at a time to command the robot, based on priorities. It also deallocates current allowed topic if no messages are received after a configured timeout. All topics, together with their priority and timeout are configured through a YAML file, that can be reload at runtime.
-
-Package: ros-noetic-yocs-controllers
-Architecture: amd64
-Version: 0.12.1-0focal
-Priority: optional
-Section: misc
-Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
-Installed-Size: 35
-Depends: ros-noetic-roscpp
-Filename: pool/main/ros-noetic-yocs-controllers_0.12.1-0focal_amd64.deb
-Size: 6552
-MD5sum: cfeafd2e3e07b477cb842f4db6e303fe
-SHA1: 326d2f9cdc57973c1272f5d74afee761420631df
-SHA256: a7580a711db33249114717c2edfac108a62a04e3d2605e34c8d1e345eadfcbb8
-SHA512: 30984ae0b9d7721a3bd9bcbcc7a1b8b3d48c082fe922ba734a7f1ef51c47e3ed9af26483e5fe59c85bb99af25e9371039af7a7b34fe57bfd4ca8dba96d1c52d2
-Homepage: http://ros.org/wiki/yocs_controllers
-Description: Library for various controller types and algorithms
-
-Package: ros-noetic-yocs-math-toolkit
-Architecture: amd64
-Version: 0.12.1-0focal
-Priority: optional
-Section: misc
-Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
-Installed-Size: 100
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-ecl-build, ros-noetic-ecl-config, ros-noetic-ecl-exceptions, ros-noetic-ecl-formatters, ros-noetic-ecl-linear-algebra, ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-tf
-Filename: pool/main/ros-noetic-yocs-math-toolkit_0.12.1-0focal_amd64.deb
-Size: 24680
-MD5sum: ac24a34a17e29419126cbd4909bf696a
-SHA1: 671cb03c3dbe90c3fb32819355f8b555240a5b38
-SHA256: 7bb4b242c99a78029c7a6aced75d9721b4c2bc9680063a9e4cf1664cd10e9e4a
-SHA512: be12f84eb0a56e38dc4ae19d7867272c9e7692d696e37cbb2ec0067e3e35bbf341cc4999a8c54519ec28a88316b69f8a9c3faf3a3f2892c36334f54d49af156b
-Homepage: http://ros.org/wiki/yocs_math_toolkit
-Description: Math toolkit for Yujin open control system.
- This package is intended to contain common use functions, mostly for simple mathematics but also for tf-related conversions. By no means it pretends to be an efficient and robust, widely used math library, but a play ground where to put common code that is typically repeated in many robot control programs.
-
-Package: ros-noetic-yocs-msgs
-Architecture: amd64
-Version: 0.7.0-0focal
-Priority: optional
-Section: misc
-Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
-Installed-Size: 1953
-Depends: ros-noetic-actionlib-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-std-msgs, ros-noetic-std-srvs
-Filename: pool/main/ros-noetic-yocs-msgs_0.7.0-0focal_amd64.deb
-Size: 99040
-MD5sum: ad602cedb05c35721799bce6539eb09c
-SHA1: e4aadab04a93bfb78590f5478379aad80fa86ecf
-SHA256: ac1f63842ae10fd07822ae53d300af41a25e4e6279eddda8c1978e530b1221ac
-SHA512: b025dc673e5d6607fec3aa5f87abd49fe567e4dbd8906f7984c9d1b5946d7b90b6d82705931812d5b8cf894a49496fbeccb36837c519bf86083d191a70837c97
-Homepage: http://ros.org/wiki/yocs_msgs
-Description: Yujin's Open Control System messages, services and actions
-
-Package: ros-noetic-yocs-velocity-smoother
-Architecture: amd64
-Version: 0.12.1-0focal
-Priority: optional
-Section: misc
-Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
-Installed-Size: 415
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-dynamic-reconfigure, ros-noetic-ecl-threads, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp
-Filename: pool/main/ros-noetic-yocs-velocity-smoother_0.12.1-0focal_amd64.deb
-Size: 92424
-MD5sum: c8fe715660ee390897ff624ccf504f45
-SHA1: aa69eda81c6181d468f1cd13de1fe24f188f117d
-SHA256: 68bf47b91dafe2115bd75c4098cd85cf14a13bed288b0d12bff22bbbe2dc0da9
-SHA512: 5dcaf88c8bc92bb3155aa258a323c4a258ce5500353bd2ca4c831d8137076737c768acc0a892ac9bbc7b0d5a8249fafe616220fee19ab9e5a9a51712adc8e1e5
-Homepage: http://ros.org/wiki/yocs_velocity_smoother
-Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
-
-Package: ros-noetic-yocs-virtual-sensor
-Architecture: amd64
-Version: 0.12.1-0focal
-Priority: optional
-Section: misc
-Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
-Installed-Size: 229
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-rospy-message-converter, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-visualization-msgs, ros-noetic-yocs-math-toolkit, ros-noetic-yocs-msgs
-Filename: pool/main/ros-noetic-yocs-virtual-sensor_0.12.1-0focal_amd64.deb
-Size: 55116
-MD5sum: 412ec0179490ce4c404df623a3d7302d
-SHA1: 62f1899e112df2d6ad3606ece0f42c00a2de3f3f
-SHA256: ac025dfdd3dc7edc7077e23f41c6b3938e7c57572f62cf0ca2bd97d41dfa1095
-SHA512: 3356eb5d143d080a77b6b692c5c9ca0c3a05362266fefac4a5f95906f973b8f5c6a8d84a54738e79f6ebe9ff876c484968fb4d19fa0bd4802a7e60e2baa19198
-Homepage: http://ros.org/wiki/yocs_virtual_sensor
-Description: Virtual sensor that uses semantic map information to &quot;see&quot; obstacles undetectable by robot sensors.
- Current implementation cannot read obstacles from YAML files. Until this feature gets implemented, we use auxiliary scripts to read and publish files' content. Data directory contains some example files.
+Depends: ros-noetic-stdr-gui, ros-noetic-stdr-launchers, ros-noetic-stdr-msgs, ros-noetic-stdr-parser, ros-noetic-stdr-resources, ros-noetic-stdr-robot, ros-noetic-stdr-samples, ros-noetic-stdr-server
+Filename: pool/main/ros-noetic-stdr-simulator_0.4.2-0focal_amd64.deb
+Size: 2180
+MD5sum: 1ff9707baac85f34915cdf2bee6bae4f
+SHA1: 6906b81af2e863c46920c59f2ff6fed801d75296
+SHA256: 07262cda6dfa4adf3e7f42cea5e093f3a01116816b7a04f56542bb07a3880bb0
+SHA512: 79d02ae29ccfb0dea21d5385cf35477fb11e4560ce6910f5382120d51e357ae18fb61daa9191aa8bbdbcabc0c9a836cf6cf465d5345c13a9bac46ec0a4fdd4e6
+Homepage: http://stdr-simulator-ros-pkg.github.io
+Description: A simple, flexible and scalable 2D multi-robot simulator.
 
