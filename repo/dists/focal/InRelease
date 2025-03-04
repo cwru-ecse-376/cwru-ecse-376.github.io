@@ -1,15 +1,8 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Origin: CWRU ECSE 376 Repository
-Label: CWRU ECSE 376
-Suite: focal
-Codename: focal
-Version: 1.0
-Architectures: i386 amd64
-Components: main
-Description: Repository for CWRU ECSE 376
-Date: Tue, 04 Mar 2025 14:01:48 +0000
+Origin: ${COURSE//-/ } Repository Label: ${COURSE//-/ } Suite: focal Codename: focal Version: 1.0 Architectures: i386 amd64 Components: main Description: Repository for ${COURSE//-/ }
+Date: Tue, 04 Mar 2025 15:02:01 +0000
 MD5Sum:
  ceede4dade9d969999d0173c621a59dd            96147 main/binary-amd64/Packages
  0fd4605854cac1aa834e670a3f0cdae9            26377 main/binary-amd64/Packages.gz
@@ -32,18 +25,18 @@ SHA512:
  1b46b9b08d5b338be9d732a1724795b2eab63daffde377218727c90857b79fe6a47bceed495117fcde60f7339812ef75ef4c69f82dd79fb69b6cbf8006b521f2               20 main/binary-i386/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJDBAEBCgAtFiEEB6363en8fs/UEgRalXpx0KhuIIoFAmfHB8wPHGxlZWdzQGNh
-c2UuZWR1AAoJEJV6cdCobiCKa8IP/3E6cgMo+UZjJOoRil/lLJFqNG0jX51A3b1k
-vkfsu7DYqA29uDDycd3CSW9beHeNWqNJn8rK1G01zVOPfxC6UaNwfzE1kRFNB0pa
-5i5hiJ0kDXxcO+mUEwGszi6t+V26UcQO0r2ndI7lSm4srjGZVRHRQ0zmASyQhJ1q
-coJDKfh2lD4EEzUAqN81Fjj1gNQFDpU5nLmUGFrB0dAlNsJ0Pexm1tGyytpjFIwi
-uJp9gxr2sAG7x3sEu9tGxLAS8Qg51D9OVn+dcRn8c9uneQp6v1BY571QU4rz4RdA
-en2bPW6+qMtyWfKnATPTqzDt1t02M4Rt9OgnQ9lkfp9VH3s+r2Uxerc5SJVYvlIQ
-RefUMnhOZ/KVtGtFI3eHVEQFCxLCoutW4+yK3oxf8LmO0LrySn8Rl0pcLttjXOgq
-y/aanS+bltk0rYkKg14VhrP9IqgYWdVjQ9uRV9F9krqPN+BflFjufLYV8KLH2bHX
-wgH1C5pHwU3CM5wUWetU9MUfPXV0qd/RviqZ16Eg6F4c3RNyvjNJn0LEt730LuOi
-9iLWNycK+8TMXA393kFa9mzxZxQfx8iKrXVD6X6SSCUbRo0aVvCaKzFFpQ+bK9BQ
-2v7CRCfdBcSlt/mnnNHOZBMgAD2XaZtwB11DWyBnb2qwia1nf7cj13yY1aSbONuk
-qIdsSia4
-=w9OO
+iQJDBAEBCgAtFiEEB6363en8fs/UEgRalXpx0KhuIIoFAmfHFekPHGxlZWdzQGNh
+c2UuZWR1AAoJEJV6cdCobiCKQv8P/2LbyREnbly2beF95cgxVjjHY9Qw0TEchK+F
+GJNMK6KFqU7dkx6rp/vvdKbLxOJoeU1hAT1FBZO8tCcX5XTUguGTLzw5TZUzw8ZW
+WIHukx4c8ek0Iy+g/8sGd+Ab4hRHb8KJoha4c22VGG/rVaX8eb+r4u3fKq86a3ze
+k77TCMJ60cTTOkug9m0gkHBsXv2+mKNDifVqogvuueoE6Y1wuptecOBd1ODLNhwg
+UhtR2YsBLw8HASUMW4ZAd95ETwY40TpW3uftTMlvkYjdOy0gO9gnSuftU7baIJoN
+qDpPXKJmNFQN8X3ke8TfpFvEYWDpk5QNJ/+dxcCpwve7Nxl9hwJUgeG0XIdkB/T7
+hqBQZfappJoy1WMvP4v7svdrsxW+l1/bfZ/59PtefonpkRwjwVpFad9NKwwpoirR
+oXpSz+ERilWdy+7SM28fFQo4p3nx1C7ntrxEHkM5rDfe47uOit0NJgCM1t/HN/Zn
+4p4cNUCucYyyH17GM6pQH8upoArTPKcO+DvnEs0OxUAAsCaVEZ32hnRL4gS+c9QX
+vtRmoQ0HnnTo23/kW3UAdt0D772Lu4Dq1aWtw+rVNxIrg5pyeHJiM6hLdL/E44H9
+U4+WByVWWV6GqRxRh42K+EhAsc0VglI1nljPX3QesQVCiOBxsFGX89hb9rTd2oIY
+Y9DZhiDw
+=BX4x
 -----END PGP SIGNATURE-----
